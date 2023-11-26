@@ -2,7 +2,7 @@
 
 Publish do site:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9f14e5e8-1f15-45fd-b478-8e4dcb1f96c1/deploy-status)](https://app.netlify.com/sites/wikipetsuni/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/253bd803-57ac-48b1-8361-5f8bfe1a910d/deploy-status)](https://app.netlify.com/sites/wikipetsuni/deploys)
 
 [Wikipets Website](https://wikipetsuni.netlify.app/)
 
