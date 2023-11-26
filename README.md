@@ -1,11 +1,12 @@
-# React App with Markdow
-
-Publish do site:
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/253bd803-57ac-48b1-8361-5f8bfe1a910d/deploy-status)](https://app.netlify.com/sites/wikipetsuni/deploys)
+# WikiPets
 
 [Wikipets Website](https://wikipetsuni.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/253bd803-57ac-48b1-8361-5f8bfe1a910d/deploy-status)](https://app.netlify.com/sites/wikipetsuni/deploys)
+
+![Logo](https://github.com/wikipets/website/blob/master/src/imgs/logo.png)
+
+# React App with Markdow
 
 Para rodar o prjeto:  
 1. Instalar dependencias:  
