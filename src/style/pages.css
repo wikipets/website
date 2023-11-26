@@ -1,0 +1,188 @@
+.home {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: max-content;
+    z-index: 2;
+    background-color: #000;
+}
+
+.home_footer {
+    margin-top: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5em;
+    text-shadow: 0 0 1px #000;
+}
+
+.section h1,
+.section h2 {
+    text-shadow: 0 0 1px #000;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg1,
+.bg3,
+.bg5 {
+    color: #fff;
+    text-shadow: 0 0 1px rgb(0, 76, 121);
+}
+
+.bg2,
+.bg4 {
+    color: #fff;
+}
+
+.bg1::before,
+.bg3::before,
+.bg5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bg1::after,
+.bg3::after,
+.bg5::after {
+    background-image: url('./../imgs/petsBg.jpg');
+    filter: blur(2px);
+    opacity: .5;
+}
+
+.bg2::after,
+.bg4::after {
+    background-color: rgb(0, 112, 177);
+}
+
+
+
+.posts_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.375rem;
+    padding: 10px;
+    border: 1px solid rgba(77, 77, 77, 0.15);
+    margin: 5px;
+}
+
+.card-title {
+    margin: 8px 0px;
+    font-size: 16px;
+}
+
+.card-body a {
+    display: block;
+    text-align: right;
+}
+
+.card .page,
+.card .post {
+    margin: 0px;
+}
+
+.about_social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.page {
+    margin: 5px 8%;
+}
+
+.post,
+.post_img {
+    margin: 5px 12%;
+}
+
+.post_img img {
+    width: 20vw;
+}
+
+.doacao_last p:last-of-type {
+    color: rgb(0, 162, 255);
+    font-weight: 500;
+    font-size: x-large;
+    font-family: "Segoe Script";
+    width: 100%;
+    text-align: right;
+}
+
+.blue p:last-of-type {
+    color: rgb(0, 162, 255);
+    font-weight: 500;
+    width: 100%;
+    text-align: right;
+}
+
+
+
+.doacao a {
+    color: rgb(0, 162, 255);
+    text-decoration: underline;
+}
+
+.doacao a:hover {
+    color: rgb(0, 76, 121);
+    text-decoration: none;
+}
+
+@media (max-width: 650px) {
+    .card {
+        width: 100%;
+    }
+
+    .page {
+        margin: 5px 3%;
+    }
+
+    .post,
+    .post_img {
+        margin: 5px 5%;
+    }
+
+    .doacao_last p:last-of-type {
+        font-size: 1.1em;
+    }
+}

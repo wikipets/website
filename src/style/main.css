@@ -1,0 +1,14 @@
+#main {
+    min-height: calc(100vh - 114px);
+    /* menos header menos footer*/
+}
+
+.naoExiste {
+    margin: 2em;
+}
+
+
+code {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}

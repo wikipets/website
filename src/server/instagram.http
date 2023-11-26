@@ -1,0 +1,13 @@
+
+
+GET https://api.instagram.com/oauth/authorize?access_type=?client_id={id}
+    &redirect_uri={redirect_uri}
+    &scope={scope}
+    &response_type=code
+    &state={state}
+
+GET https://graph.instagram.com/{}
+    ?fields={fields}
+    &access_token={access_token}
+
+
